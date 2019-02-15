@@ -1,0 +1,30 @@
+ul li{
+  display:inline-block;
+}
+
+#logo {
+  float: left;
+  max-width: 100%;
+  max-height: 45px;
+  position: relative;
+  left: 350px;
+  margin-right: 15px;
+  margin-top: 14px;
+}
+
+.Navigation {
+  font-size: 30px;
+  letter-spacing: 3px;
+  position: relative;
+  left: 350px;
+  border: 3px solid #333333;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#header .Navigation{
+  background-color: #404040;
+
+}

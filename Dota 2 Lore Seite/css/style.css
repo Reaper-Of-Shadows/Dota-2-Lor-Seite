@@ -1,0 +1,1329 @@
+@import "gridsystem.css";
+@import "top.css";
+@import "footer.css";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'constantia';
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+body{
+  background-color: #000000;
+}
+
+
+ul li {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+
+.Lore-Link {
+  color: #ff0000 ;
+}
+
+
+
+#Trennbild-Home {
+  position: relative;
+  left: 265px;
+  top: 7px;
+}
+
+
+
+#Trennbild-Enigma {
+  position: relative;
+  left: 360px;
+  top: 10px;
+  max-width: 70%
+}
+
+
+
+.Überschrift{
+  background-color: #404040;
+  margin-top: 10px;
+  position: relative;
+  left: 400px;
+  max-width: 42%;
+  padding-bottom: 10px;
+  border-top: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+.Content{
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+  background-color: #404040;
+  position: relative;
+  left: 400px;
+  max-width: 42%;
+  margin-bottom: 35px;
+}
+
+
+
+.Helden-Überschrift{
+  background-color: #404040;
+  margin-top: 10px;
+  position: relative;
+  left: 350px;
+  max-width: 35%;
+  padding-bottom: 10px;
+  border-top: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+.Skin-Überschrift{
+  background-color: #404040;
+  position: relative;
+  left: 350px;
+  max-width: 35%;
+  padding-bottom: 10px;
+  border-top: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+.Helden-Content{
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+  background-color: #404040;
+  position: relative;
+  left: 350px;
+  max-width: 35%;
+  margin-bottom: 35px;
+}
+
+.Helden-Model{
+  float:right ;
+  right: 320px  ;
+  top: 13px ;
+  max-width: 100% ;
+  position: relative;
+}
+
+
+
+.Stärke-Helden {
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+
+
+.Agilitäts-Helden {
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 150px;
+}
+
+
+
+.Intelligenz-Helden {
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 150px;
+}
+
+
+
+#Stärke-1{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
+
+
+#Agilität-1{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 120px;
+}
+
+
+
+#Intelligenz-1{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 120px;
+}
+
+
+
+.Helden-Name {
+  max-width: 100% ;
+  position:absolute;
+  top:50px;
+  visibility:hidden;
+  white-space: nowrap;
+}
+
+#Abbadon:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Abbadon:hover{
+  transform: scale(3);
+}
+
+
+
+#Alchemist:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Alchemist:hover{
+  transform: scale(3);
+}
+
+
+
+#Axe:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Axe:hover{
+  transform: scale(3);
+}
+
+
+
+#Beastmaster:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Beastmaster:hover{
+  transform: scale(3);
+}
+
+
+
+#Brewmaster:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Brewmaster:hover{
+  transform: scale(3);
+}
+
+
+
+#Bristleback:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Bristleback:hover{
+  transform: scale(3);
+}
+
+
+
+#Centaur-Warrunner:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Centaur-Warrunner:hover{
+  transform: scale(3);
+}
+
+
+
+#Chaos-Knight:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Chaos-Knight:hover{
+  transform: scale(3);
+}
+
+
+
+#Clockwerk:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Clockwerk:hover{
+  transform: scale(3);
+}
+
+
+
+#Doom:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Doom:hover{
+  transform: scale(3);
+}
+
+
+
+#Dragon-Knight:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Dragon-Knight:hover{
+  transform: scale(3);
+}
+
+
+
+#Earth-Spirit:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Earth-Spirit:hover{
+  transform: scale(3);
+}
+
+
+
+#Earthshaker:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Earthshaker:hover{
+  transform: scale(3);
+}
+
+
+
+#Elder-Titan:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Elder-Titan:hover{
+  transform: scale(3);
+}
+
+
+
+#Huskar:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Huskar:hover{
+  transform: scale(3);
+}
+
+
+
+#IO:hover .Helden-Name{
+  visibility:visible;
+}
+
+#IO:hover{
+  transform: scale(3);
+}
+
+
+
+#Kunkka:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Kunkka:hover{
+  transform: scale(3);
+}
+
+
+
+#Legion-Commander:hover .Helden-Name{
+  visibility:visible;
+  right:10px;
+}
+
+#Legion-Commander:hover{
+  transform: scale(3);
+}
+
+
+
+#Lifestealer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lifestealer:hover{
+  transform: scale(3);
+}
+
+
+
+#Lycan:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lycan:hover{
+  transform: scale(3);
+}
+
+
+
+#Magnus:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Magnus:hover{
+  transform: scale(3);
+}
+
+
+
+#Nightstalker:hover .Helden-Name{
+  visibility:visible;
+  right:35px;
+}
+
+#Nightstalker:hover{
+  transform: scale(3);
+}
+
+
+
+#Omniknight:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Omniknight:hover{
+  transform: scale(3);
+}
+
+
+
+#Phönix:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Phönix:hover{
+  transform: scale(3);
+}
+
+
+
+#Pudge:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Pudge:hover{
+  transform: scale(3);
+}
+
+
+
+#Sand-King:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Sand-King:hover{
+  transform: scale(3);
+}
+
+
+
+#Slardar:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Slardar:hover{
+  transform: scale(3);
+}
+
+
+
+#Spirit-Breaker:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Spirit-Breaker:hover{
+  transform: scale(3);
+}
+
+
+
+#Sven:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Sven:hover{
+  transform: scale(3);
+}
+
+
+
+#Tidehunter:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Tidehunter:hover{
+  transform: scale(3);
+}
+
+
+
+#Timbersaw:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Timbersaw:hover{
+  transform: scale(3);
+}
+
+
+
+#Tiny:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Tiny:hover{
+  transform: scale(3);
+}
+
+
+
+#Treant-Protector:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Treant-Protector:hover{
+  transform: scale(3);
+}
+
+
+
+#Tusk:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Tusk:hover{
+  transform: scale(3);
+}
+
+
+
+#Underlord:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Underlord:hover{
+  transform: scale(3);
+}
+
+
+
+#Undying:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Undying:hover{
+  transform: scale(3);
+}
+
+
+
+#Wraith-King:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Wraith-King:hover{
+  transform: scale(3);
+}
+
+
+
+#Anti-Mage:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Anti-Mage:hover{
+  transform: scale(3);
+}
+
+
+
+#Arc-Warden:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Arc-Warden:hover{
+  transform: scale(3);
+}
+
+
+
+#Bloodseeker:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Bloodseeker:hover{
+  transform: scale(3);
+}
+
+
+
+#Bounty-Hunter:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Bounty-Hunter:hover{
+  transform: scale(3);
+}
+
+
+
+#Broodmother:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Broodmother:hover{
+  transform: scale(3);
+}
+
+
+
+#Clinkz:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Clinkz:hover{
+  transform: scale(3);
+}
+
+
+
+#Drow-Ranger:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Drow-Ranger:hover{
+  transform: scale(3);
+}
+
+
+
+#Ember-Spirit:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Ember-Spirit:hover{
+  transform: scale(3);
+}
+
+
+
+#Faceless-Void:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Faceless-Void:hover{
+  transform: scale(3);
+}
+
+
+
+#Gyrocopter:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Gyrocopter:hover{
+  transform: scale(3);
+}
+
+
+
+#Juggernaut:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Juggernaut:hover{
+  transform: scale(3);
+}
+
+
+
+#Lone-Druid:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lone-Druid:hover{
+  transform: scale(3);
+}
+
+
+
+#Luna:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Luna:hover{
+  transform: scale(3);
+}
+
+
+
+#Medusa:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Medusa:hover{
+  transform: scale(3);
+}
+
+
+
+#Meepo:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Meepo:hover{
+  transform: scale(3);
+}
+
+
+
+#Mirana:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Mirana:hover{
+  transform: scale(3);
+}
+
+
+
+#Monkey-King:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Monkey-King:hover{
+  transform: scale(3);
+}
+
+
+
+#Morphling:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Morphling:hover{
+  transform: scale(3);
+}
+
+
+
+#Naga-Siren:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Naga-Siren:hover{
+  transform: scale(3);
+}
+
+
+
+#Nyx-Assassin:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Nyx-Assassin:hover{
+  transform: scale(3);
+}
+
+
+
+#Pangolier:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Pangolier:hover{
+  transform: scale(3);
+}
+
+
+
+#Phantom-Assassin:hover .Helden-Name{
+  visibility:visible;
+  right: 70px;
+}
+
+#Phantom-Assassin:hover{
+  transform: scale(3);
+}
+
+
+
+#Phantom-Lancer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Phantom-Lancer:hover{
+  transform: scale(3);
+}
+
+
+
+#Razor:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Razor:hover{
+  transform: scale(3);
+}
+
+
+
+#Riki:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Riki:hover{
+  transform: scale(3);
+}
+
+
+
+#Shadow-Fiend:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Shadow-Fiend:hover{
+  transform: scale(3);
+}
+
+
+
+#Slark:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Slark:hover{
+  transform: scale(3);
+}
+
+
+
+#Sniper:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Sniper:hover{
+  transform: scale(3);
+}
+
+
+
+#Spectre:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Spectre:hover{
+  transform: scale(3);
+}
+
+
+
+#Templar-Assassin:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Templar-Assassin:hover{
+  transform: scale(3);
+}
+
+
+
+#Terrorblade:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Terrorblade:hover{
+  transform: scale(3);
+}
+
+
+
+#Troll-Warlord:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Troll-Warlord:hover{
+  transform: scale(3);
+}
+
+
+
+#Ursa:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Ursa:hover{
+  transform: scale(3);
+}
+
+
+
+#Vengefull-Spirit:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Vengefull-Spirit:hover{
+  transform: scale(3);
+}
+
+
+
+#Venomancer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Venomancer:hover{
+  transform: scale(3);
+}
+
+
+
+#Viper:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Viper:hover{
+  transform: scale(3);
+}
+
+
+
+#Weaver:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Weaver:hover{
+  transform: scale(3);
+}
+
+
+
+#Ancient-Apparition:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Ancient-Apparition:hover{
+  transform: scale(3);
+}
+
+
+
+#Bane:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Bane:hover{
+  transform: scale(3);
+}
+
+
+
+#Batrider:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Batrider:hover{
+  transform: scale(3);
+}
+
+
+
+#Chen:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Chen:hover{
+  transform: scale(3);
+}
+
+
+
+#Crystal-Maiden:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Crystal-Maiden:hover{
+  transform: scale(3);
+}
+
+
+
+#Dark-Seer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Dark-Seer:hover{
+  transform: scale(3);
+}
+
+
+
+#Dark-Willow:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Dark-Willow:hover{
+  transform: scale(3);
+}
+
+
+
+#Dazzle:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Dazzle:hover{
+  transform: scale(3);
+}
+
+
+
+#Death-Prophet:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Death-Prophet:hover{
+  transform: scale(3);
+}
+
+
+
+#Disruptor:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Disruptor:hover{
+  transform: scale(3);
+}
+
+
+
+#Enchantress:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Enchantress:hover{
+  transform: scale(3);
+}
+
+
+
+#Enigma:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Enigma:hover{
+  transform: scale(3);
+}
+
+
+
+#Invoker:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Invoker:hover{
+  transform: scale(3);
+}
+
+
+
+#Jakiro:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Jakiro:hover{
+  transform: scale(3);
+}
+
+
+
+#Keeper-Of-The-Light:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Keeper-Of-The-Light:hover{
+  transform: scale(3);
+}
+
+
+
+#Leshrac:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Leshrac:hover{
+  transform: scale(3);
+}
+
+
+
+#Lich:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lich:hover{
+  transform: scale(3);
+}
+
+
+
+#Lina:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lina:hover{
+  transform: scale(3);
+}
+
+
+
+#Lion:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Lion:hover{
+  transform: scale(3);
+}
+
+
+
+#Natures-Prophet:hover .Helden-Name{
+  visibility:visible;
+  right: 30px;
+}
+
+#Natures-Prophet:hover{
+  transform: scale(3);
+}
+
+
+
+#Necrophos:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Necrophos:hover{
+  transform: scale(3);
+}
+
+
+
+#Ogre-Magi:hover .Helden-Name{
+  visibility:visible;
+  right: 25px;
+}
+
+#Ogre-Magi:hover{
+  transform: scale(3);
+}
+
+
+
+#Oracle:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Oracle:hover{
+  transform: scale(3);
+}
+
+
+
+#Outworld-Devourer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Outworld-Devourer:hover{
+  transform: scale(3);
+}
+
+
+
+#Puck:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Puck:hover{
+  transform: scale(3);
+}
+
+
+
+#Pugna:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Pugna:hover{
+  transform: scale(3);
+}
+
+
+
+#Queen-Of-Pain:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Queen-Of-Pain:hover{
+  transform: scale(3);
+}
+
+
+
+#Rubick:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Rubick:hover{
+  transform: scale(3);
+}
+
+
+
+#Shadow-Demon:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Shadow-Demon:hover{
+  transform: scale(3);
+}
+
+
+
+#Shadow-Shaman:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Shadow-Shaman:hover{
+  transform: scale(3);
+}
+
+
+
+#Silencer:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Silencer:hover{
+  transform: scale(3);
+}
+
+
+
+#Skywrath-Mage:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Skywrath-Mage:hover{
+  transform: scale(3);
+}
+
+
+
+#Storm-Spirit:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Storm-Spirit:hover{
+  transform: scale(3);
+}
+
+
+
+#Techies:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Techies:hover{
+  transform: scale(3);
+}
+
+
+
+#Tinker:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Tinker:hover{
+  transform: scale(3);
+}
+
+
+
+#Visage:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Visage:hover{
+  transform: scale(3);
+}
+
+
+
+#Warlock:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Warlock:hover{
+  transform: scale(3);
+}
+
+
+
+#Windranger:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Windranger:hover{
+  transform: scale(3);
+}
+
+
+
+#Winter-Wyvern:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Winter-Wyvern:hover{
+  transform: scale(3);
+}
+
+
+
+#Witch-Doktor:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Witch-Doktor:hover{
+  transform: scale(3);
+}
+
+
+
+#Zeus:hover .Helden-Name{
+  visibility:visible;
+}
+
+#Zeus:hover{
+  transform: scale(3);
+}
